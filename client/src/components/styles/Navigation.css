@@ -1,0 +1,32 @@
+.Navigation {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 2px solid #7f1d1d;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(127, 29, 29, 0.2);
+}
+
+.NavLink {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #a3a3a3;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.NavLink:hover {
+  color: #7f1d1d;
+  background-color: rgba(127, 29, 29, 0.1);
+  box-shadow: 0 0 10px rgba(127, 29, 29, 0.3);
+}
+
+.NavLink.active {
+  color: #ffffff;
+  background: linear-gradient(135deg, #7f1d1d 0%, #c41e3a 100%);
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(127, 29, 29, 0.5);
+}
+

@@ -1,0 +1,1278 @@
+{
+  "timestamp": "2025-11-15T10:24:43.914686-05:00",
+  "model_path": "drone/prototypes.json",
+  "test_data_dir": "../Test data",
+  "total_samples": 20,
+  "predictions": [
+    {
+      "filename": "Test01.wav",
+      "predicted_class": "drone h",
+      "confidence": 0.6084560178776629,
+      "top_predictions": [
+        {
+          "label": "drone h",
+          "category": "drone",
+          "type": "drone h (drone)",
+          "confidence": 0.6084560178776629,
+          "averageDistance": 0.15078045595556913,
+          "support": 3,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_h_fcfe7880",
+              "distance": 0.12330784314424936,
+              "weight": 8.109784149905085,
+              "source": "../Drone-Training-Data/drone_H/H_12.wav"
+            },
+            {
+              "id": "proto_drone_h_459908f1",
+              "distance": 0.15962764244477057,
+              "weight": 6.264579106851183,
+              "source": "../Drone-Training-Data/drone_H/H_02.wav"
+            },
+            {
+              "id": "proto_drone_h_1af6468e",
+              "distance": 0.1694058822776875,
+              "weight": 5.902982710233361,
+              "source": "../Drone-Training-Data/drone_H/H_15.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.39154398212233726,
+          "averageDistance": 0.15549517442479993,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_138b15b5",
+              "distance": 0.1369092857277393,
+              "weight": 7.304106418935781,
+              "source": "../Drone-Training-Data/drone_G/G_11.wav"
+            },
+            {
+              "id": "proto_drone_g_cbebf636",
+              "distance": 0.17408106312186056,
+              "weight": 5.744450179256591,
+              "source": "../Drone-Training-Data/drone_G/G_08.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 324.899542,
+      "snr_db": -1.7912782865794463
+    },
+    {
+      "filename": "Test02.wav",
+      "predicted_class": "drone c",
+      "confidence": 0.5518650134815914,
+      "top_predictions": [
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.5518650134815914,
+          "averageDistance": 0.26376610821980634,
+          "support": 3,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_d265c54e",
+              "distance": 0.22071220369015232,
+              "weight": 4.530787055495431,
+              "source": "../Drone-Training-Data/drone_C/C_02.wav"
+            },
+            {
+              "id": "proto_drone_c_9c0d5327",
+              "distance": 0.2759513434514963,
+              "weight": 3.6238272438486665,
+              "source": "../Drone-Training-Data/drone_C/C_09.wav"
+            },
+            {
+              "id": "proto_drone_c_687bd39d",
+              "distance": 0.29463477751777045,
+              "weight": 3.3940324527563757,
+              "source": "../Drone-Training-Data/drone_C/C_15.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone j",
+          "category": "drone",
+          "type": "drone j (drone)",
+          "confidence": 0.26216882540590236,
+          "averageDistance": 0.1822723168546515,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_j_acafcb4c",
+              "distance": 0.1822723168546515,
+              "weight": 5.486296612508242,
+              "source": "../Drone-Training-Data/drone_J/J_12.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone f",
+          "category": "drone",
+          "type": "drone f (drone)",
+          "confidence": 0.18596616111250608,
+          "averageDistance": 0.2569613686927128,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_f_34cea1f2",
+              "distance": 0.2569613686927128,
+              "weight": 3.8916355450465168,
+              "source": "../Drone-Training-Data/drone_F/F_13.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 227.60066700000002,
+      "snr_db": -0.5714353721570521
+    },
+    {
+      "filename": "Test03.wav",
+      "predicted_class": "drone e",
+      "confidence": 0.3497881187089427,
+      "top_predictions": [
+        {
+          "label": "drone e",
+          "category": "drone",
+          "type": "drone e (drone)",
+          "confidence": 0.3497881187089427,
+          "averageDistance": 0.2451197854142752,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_e_222a3e9c",
+              "distance": 0.24012449399623936,
+              "weight": 4.1645064157892815,
+              "source": "../Drone-Training-Data/drone_E/E_06.wav"
+            },
+            {
+              "id": "proto_drone_e_2fbba917",
+              "distance": 0.25011507683231105,
+              "weight": 3.9981596018391468,
+              "source": "../Drone-Training-Data/drone_E/E_01.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.2569927243966061,
+          "averageDistance": 0.16674476013470163,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_7ee9fc80",
+              "distance": 0.16674476013470163,
+              "weight": 5.997189915862896,
+              "source": "../Drone-Training-Data/drone_C/C_03.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone j",
+          "category": "drone",
+          "type": "drone j (drone)",
+          "confidence": 0.22711306844451518,
+          "averageDistance": 0.18868218596687325,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_j_2927e994",
+              "distance": 0.18868218596687325,
+              "weight": 5.299917369388818,
+              "source": "../Drone-Training-Data/drone_J/J_14.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 235.88362500000002,
+      "snr_db": -7.742149853212704
+    },
+    {
+      "filename": "Test04.wav",
+      "predicted_class": "drone c",
+      "confidence": 0.5354038653226859,
+      "top_predictions": [
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.5354038653226859,
+          "averageDistance": 0.07079576090239625,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_1c1fa0ef",
+              "distance": 0.04403642831263466,
+              "weight": 22.708471499824494,
+              "source": "../Drone-Training-Data/drone_C/C_11.wav"
+            },
+            {
+              "id": "proto_drone_c_9be04795",
+              "distance": 0.09755509349215785,
+              "weight": 10.250617922166914,
+              "source": "../Drone-Training-Data/drone_C/C_10.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone d",
+          "category": "drone",
+          "type": "drone d (drone)",
+          "confidence": 0.30316340847429885,
+          "averageDistance": 0.12903588891300433,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_d_3f698edb",
+              "distance": 0.07591412889152871,
+              "weight": 13.17277826181856,
+              "source": "../Drone-Training-Data/drone_D/D_05.wav"
+            },
+            {
+              "id": "proto_drone_d_c4caf226",
+              "distance": 0.18215764893447994,
+              "weight": 5.4897502265740075,
+              "source": "../Drone-Training-Data/drone_D/D_08.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone i",
+          "category": "drone",
+          "type": "drone i (drone)",
+          "confidence": 0.16143272620301513,
+          "averageDistance": 0.10062704332306727,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_i_fcac517e",
+              "distance": 0.10062704332306727,
+              "weight": 9.937686302197836,
+              "source": "../Drone-Training-Data/drone_I/I_04.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 222.466292,
+      "snr_db": -4.956128508061709
+    },
+    {
+      "filename": "Test05.wav",
+      "predicted_class": "drone c",
+      "confidence": 0.44603945932764494,
+      "top_predictions": [
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.44603945932764494,
+          "averageDistance": 0.24796003682728596,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_8b2dab1a",
+              "distance": 0.2302062652293414,
+              "weight": 4.343930408061772,
+              "source": "../Drone-Training-Data/drone_C/C_13.wav"
+            },
+            {
+              "id": "proto_drone_c_9c0d5327",
+              "distance": 0.2657138084252305,
+              "weight": 3.7634476061410385,
+              "source": "../Drone-Training-Data/drone_C/C_09.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone a",
+          "category": "drone",
+          "type": "drone a (drone)",
+          "confidence": 0.20905307258328443,
+          "averageDistance": 0.2631699519318208,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_a_590cc11e",
+              "distance": 0.2631699519318208,
+              "weight": 3.799825887642534,
+              "source": "../Drone-Training-Data/drone_A/A_13.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.19630825449926365,
+          "averageDistance": 0.28025559707624825,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_d209a452",
+              "distance": 0.28025559707624825,
+              "weight": 3.5681713652261573,
+              "source": "../Drone-Training-Data/drone_G/G_03.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 226.308917,
+      "snr_db": -0.5758756980252157
+    },
+    {
+      "filename": "Test06.wav",
+      "predicted_class": "drone f",
+      "confidence": 0.7866577194881696,
+      "top_predictions": [
+        {
+          "label": "drone f",
+          "category": "drone",
+          "type": "drone f (drone)",
+          "confidence": 0.7866577194881696,
+          "averageDistance": 0.3368201444886475,
+          "support": 4,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_f_44645cf2",
+              "distance": 0.3297012074917556,
+              "weight": 3.033049240476186,
+              "source": "../Drone-Training-Data/drone_F/F_06.wav"
+            },
+            {
+              "id": "proto_drone_f_ec558805",
+              "distance": 0.3305266450329025,
+              "weight": 3.0254746841210927,
+              "source": "../Drone-Training-Data/drone_F/F_12.wav"
+            },
+            {
+              "id": "proto_drone_f_7dfc30a3",
+              "distance": 0.34259435738058885,
+              "weight": 2.9189038743279525,
+              "source": "../Drone-Training-Data/drone_F/F_14.wav"
+            },
+            {
+              "id": "proto_drone_f_dd0e7775",
+              "distance": 0.34445836804934293,
+              "weight": 2.9031084445991557,
+              "source": "../Drone-Training-Data/drone_F/F_04.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.21334228051183035,
+          "averageDistance": 0.31036506496888994,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_22df8134",
+              "distance": 0.31036506496888994,
+              "weight": 3.222012106543708,
+              "source": "../Drone-Training-Data/drone_C/C_08.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 229.71,
+      "snr_db": -4.925836845050963
+    },
+    {
+      "filename": "Test07.wav",
+      "predicted_class": "drone j",
+      "confidence": 0.5001266393075233,
+      "top_predictions": [
+        {
+          "label": "drone j",
+          "category": "drone",
+          "type": "drone j (drone)",
+          "confidence": 0.5001266393075233,
+          "averageDistance": 0.1857346378730521,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_j_f84cc635",
+              "distance": 0.14737032648171045,
+              "weight": 6.785626503572139,
+              "source": "../Drone-Training-Data/drone_J/J_08.wav"
+            },
+            {
+              "id": "proto_drone_j_8923483f",
+              "distance": 0.22409894926439378,
+              "weight": 4.46231452142097,
+              "source": "../Drone-Training-Data/drone_J/J_10.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone e",
+          "category": "drone",
+          "type": "drone e (drone)",
+          "confidence": 0.32874094968088935,
+          "averageDistance": 0.27310170300851316,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_e_6195a0f0",
+              "distance": 0.2464966496680332,
+              "weight": 4.056850254516195,
+              "source": "../Drone-Training-Data/drone_E/E_05.wav"
+            },
+            {
+              "id": "proto_drone_e_5a0500a6",
+              "distance": 0.29970675634899313,
+              "weight": 3.3365947729885557,
+              "source": "../Drone-Training-Data/drone_E/E_14.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone f",
+          "category": "drone",
+          "type": "drone f (drone)",
+          "confidence": 0.17113241101158733,
+          "averageDistance": 0.2598212612658499,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_f_dd0e7775",
+              "distance": 0.2598212612658499,
+              "weight": 3.848799714385179,
+              "source": "../Drone-Training-Data/drone_F/F_04.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 230.40770899999998,
+      "snr_db": -5.9571616982922935
+    },
+    {
+      "filename": "Test08.wav",
+      "predicted_class": "drone c",
+      "confidence": 0.4090646063171949,
+      "top_predictions": [
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.4090646063171949,
+          "averageDistance": 0.25631683783873205,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_687bd39d",
+              "distance": 0.2311151549131576,
+              "weight": 4.326847350399443,
+              "source": "../Drone-Training-Data/drone_C/C_15.wav"
+            },
+            {
+              "id": "proto_drone_c_d265c54e",
+              "distance": 0.2815185207643065,
+              "weight": 3.552164147967578,
+              "source": "../Drone-Training-Data/drone_C/C_02.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone i",
+          "category": "drone",
+          "type": "drone i (drone)",
+          "confidence": 0.22675905287507736,
+          "averageDistance": 0.22895784772293382,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_i_abd10717",
+              "distance": 0.22895784772293382,
+              "weight": 4.367616159820399,
+              "source": "../Drone-Training-Data/drone_I/I_13.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone d",
+          "category": "drone",
+          "type": "drone d (drone)",
+          "confidence": 0.18853742802468945,
+          "averageDistance": 0.27537378270266555,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_d_f2e10600",
+              "distance": 0.27537378270266555,
+              "weight": 3.631427750870244,
+              "source": "../Drone-Training-Data/drone_D/D_10.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 228.888166,
+      "snr_db": -2.2564949598167012
+    },
+    {
+      "filename": "Test09.wav",
+      "predicted_class": "drone d",
+      "confidence": 0.3575366555083749,
+      "top_predictions": [
+        {
+          "label": "drone d",
+          "category": "drone",
+          "type": "drone d (drone)",
+          "confidence": 0.3575366555083749,
+          "averageDistance": 0.32144578155807274,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_d_173df409",
+              "distance": 0.31433218563950704,
+              "weight": 3.181347766803319,
+              "source": "../Drone-Training-Data/drone_D/D_04.wav"
+            },
+            {
+              "id": "proto_drone_d_f9316460",
+              "distance": 0.32855937747663844,
+              "weight": 3.0435898820982916,
+              "source": "../Drone-Training-Data/drone_D/D_15.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.24278231270319905,
+          "averageDistance": 0.236574821793735,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_4eae7b22",
+              "distance": 0.236574821793735,
+              "weight": 4.226992493076411,
+              "source": "../Drone-Training-Data/drone_G/G_12.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone f",
+          "category": "drone",
+          "type": "drone f (drone)",
+          "confidence": 0.20677560563481245,
+          "averageDistance": 0.27777059204882815,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_f_bb88cb92",
+              "distance": 0.27777059204882815,
+              "weight": 3.600093116495647,
+              "source": "../Drone-Training-Data/drone_F/F_15.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 230.701917,
+      "snr_db": -4.366421277055538
+    },
+    {
+      "filename": "Test10.wav",
+      "predicted_class": "drone c",
+      "confidence": 0.4192986999074006,
+      "top_predictions": [
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.4192986999074006,
+          "averageDistance": 0.18139044645666863,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_9c0d5327",
+              "distance": 0.16214886902541692,
+              "weight": 6.167172178524892,
+              "source": "../Drone-Training-Data/drone_C/C_09.wav"
+            },
+            {
+              "id": "proto_drone_c_01616a6e",
+              "distance": 0.20063202388792034,
+              "weight": 4.984249152440309,
+              "source": "../Drone-Training-Data/drone_C/C_14.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone h",
+          "category": "drone",
+          "type": "drone h (drone)",
+          "confidence": 0.3589895194789264,
+          "averageDistance": 0.20948333883189102,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_h_459908f1",
+              "distance": 0.20858579891941842,
+              "weight": 4.794190210389794,
+              "source": "../Drone-Training-Data/drone_H/H_02.wav"
+            },
+            {
+              "id": "proto_drone_h_30b8dd07",
+              "distance": 0.21038087874436362,
+              "weight": 4.753283669196137,
+              "source": "../Drone-Training-Data/drone_H/H_13.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone j",
+          "category": "drone",
+          "type": "drone j (drone)",
+          "confidence": 0.2217117806136732,
+          "averageDistance": 0.16959167064258118,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_j_28ef67e6",
+              "distance": 0.16959167064258118,
+              "weight": 5.896515968705856,
+              "source": "../Drone-Training-Data/drone_J/J_05.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 221.998,
+      "snr_db": -1.6259575175175072
+    },
+    {
+      "filename": "Test11.wav",
+      "predicted_class": "drone c",
+      "confidence": 0.471859528069731,
+      "top_predictions": [
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.471859528069731,
+          "averageDistance": 0.12774528507485078,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_01616a6e",
+              "distance": 0.09445056827334652,
+              "weight": 10.587548679626593,
+              "source": "../Drone-Training-Data/drone_C/C_14.wav"
+            },
+            {
+              "id": "proto_drone_c_d265c54e",
+              "distance": 0.16104000187635503,
+              "weight": 6.209637246267254,
+              "source": "../Drone-Training-Data/drone_C/C_02.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.3375534600245545,
+          "averageDistance": 0.16647074018547753,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_0f66e545",
+              "distance": 0.16429368897713603,
+              "weight": 6.086661028425165,
+              "source": "../Drone-Training-Data/drone_G/G_15.wav"
+            },
+            {
+              "id": "proto_drone_g_01e70b60",
+              "distance": 0.16864779139381902,
+              "weight": 5.929517284547925,
+              "source": "../Drone-Training-Data/drone_G/G_10.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone d",
+          "category": "drone",
+          "type": "drone d (drone)",
+          "confidence": 0.1905870119057145,
+          "averageDistance": 0.14739504892415922,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_d_92c2121e",
+              "distance": 0.14739504892415922,
+              "weight": 6.784488356390129,
+              "source": "../Drone-Training-Data/drone_D/D_14.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 221.339417,
+      "snr_db": -6.3906213422444935
+    },
+    {
+      "filename": "Test12.wav",
+      "predicted_class": "drone f",
+      "confidence": 1,
+      "top_predictions": [
+        {
+          "label": "drone f",
+          "category": "drone",
+          "type": "drone f (drone)",
+          "confidence": 1,
+          "averageDistance": 0.3143091494530562,
+          "support": 5,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_f_03b9b036",
+              "distance": 0.2314221777282196,
+              "weight": 4.321107015306395,
+              "source": "../Drone-Training-Data/drone_F/F_03.wav"
+            },
+            {
+              "id": "proto_drone_f_ad724da5",
+              "distance": 0.23892700078115925,
+              "weight": 4.185378766506815,
+              "source": "../Drone-Training-Data/drone_F/F_11.wav"
+            },
+            {
+              "id": "proto_drone_f_672e9c13",
+              "distance": 0.35229163572297995,
+              "weight": 2.8385573080928324,
+              "source": "../Drone-Training-Data/drone_F/F_10.wav"
+            },
+            {
+              "id": "proto_drone_f_dd0e7775",
+              "distance": 0.3707335608487813,
+              "weight": 2.697354927925005,
+              "source": "../Drone-Training-Data/drone_F/F_04.wav"
+            },
+            {
+              "id": "proto_drone_f_aae4b841",
+              "distance": 0.378171372184141,
+              "weight": 2.644303802215815,
+              "source": "../Drone-Training-Data/drone_F/F_07.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 224.57358399999998,
+      "snr_db": -4.768659881313397
+    },
+    {
+      "filename": "Test13.wav",
+      "predicted_class": "drone h",
+      "confidence": 0.349752797577483,
+      "top_predictions": [
+        {
+          "label": "drone h",
+          "category": "drone",
+          "type": "drone h (drone)",
+          "confidence": 0.349752797577483,
+          "averageDistance": 0.32126265501674894,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_h_e14a7c5a",
+              "distance": 0.31350422892323926,
+              "weight": 3.1897496255308817,
+              "source": "../Drone-Training-Data/drone_H/H_06.wav"
+            },
+            {
+              "id": "proto_drone_h_54cd4356",
+              "distance": 0.32902108111025863,
+              "weight": 3.0393189201927457,
+              "source": "../Drone-Training-Data/drone_H/H_05.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.24393530367315763,
+          "averageDistance": 0.23017779572555008,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_8b2dab1a",
+              "distance": 0.23017779572555008,
+              "weight": 4.34446768639609,
+              "source": "../Drone-Training-Data/drone_C/C_13.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.21343876873253134,
+          "averageDistance": 0.26306603464335265,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_d209a452",
+              "distance": 0.26306603464335265,
+              "weight": 3.801326908486708,
+              "source": "../Drone-Training-Data/drone_G/G_03.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 224.926,
+      "snr_db": -1.705631641443204
+    },
+    {
+      "filename": "Test14.wav",
+      "predicted_class": "drone d",
+      "confidence": 0.441750337125352,
+      "top_predictions": [
+        {
+          "label": "drone d",
+          "category": "drone",
+          "type": "drone d (drone)",
+          "confidence": 0.441750337125352,
+          "averageDistance": 0.31600454174733134,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_d_0e674da0",
+              "distance": 0.2245273969094116,
+              "weight": 4.453799444126024,
+              "source": "../Drone-Training-Data/drone_D/D_13.wav"
+            },
+            {
+              "id": "proto_drone_d_c4caf226",
+              "distance": 0.4074816865852511,
+              "weight": 2.4540980134003822,
+              "source": "../Drone-Training-Data/drone_D/D_08.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone c",
+          "category": "drone",
+          "type": "drone c (drone)",
+          "confidence": 0.3864070235874328,
+          "averageDistance": 0.3371476743305021,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_c_099fc6ce",
+              "distance": 0.2915871809621813,
+              "weight": 3.4295060340810846,
+              "source": "../Drone-Training-Data/drone_C/C_06.wav"
+            },
+            {
+              "id": "proto_drone_c_1c1fa0ef",
+              "distance": 0.3827081676988229,
+              "weight": 2.612957030418033,
+              "source": "../Drone-Training-Data/drone_C/C_11.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone j",
+          "category": "drone",
+          "type": "drone j (drone)",
+          "confidence": 0.1718426392872152,
+          "averageDistance": 0.3721346176865209,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_j_2927e994",
+              "distance": 0.3721346176865209,
+              "weight": 2.6871996040830077,
+              "source": "../Drone-Training-Data/drone_J/J_14.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 219.99279099999998,
+      "snr_db": -8.647509578738763
+    },
+    {
+      "filename": "Test15.wav",
+      "predicted_class": "drone a",
+      "confidence": 0.5586058068933567,
+      "top_predictions": [
+        {
+          "label": "drone a",
+          "category": "drone",
+          "type": "drone a (drone)",
+          "confidence": 0.5586058068933567,
+          "averageDistance": 0.21784061979506236,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_a_590cc11e",
+              "distance": 0.08788227710889562,
+              "weight": 11.378858417403475,
+              "source": "../Drone-Training-Data/drone_A/A_13.wav"
+            },
+            {
+              "id": "proto_drone_a_d633f5c9",
+              "distance": 0.3477989624812291,
+              "weight": 2.8752242099593563,
+              "source": "../Drone-Training-Data/drone_A/A_12.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone h",
+          "category": "drone",
+          "type": "drone h (drone)",
+          "confidence": 0.21014166459724787,
+          "averageDistance": 0.18648933641858334,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_h_54cd4356",
+              "distance": 0.18648933641858334,
+              "weight": 5.362236864810437,
+              "source": "../Drone-Training-Data/drone_H/H_05.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.12365821674417168,
+          "averageDistance": 0.3169152904104756,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_d209a452",
+              "distance": 0.3169152904104756,
+              "weight": 3.1554173216109604,
+              "source": "../Drone-Training-Data/drone_G/G_03.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 223.00604199999998,
+      "snr_db": -3.5168591282610056
+    },
+    {
+      "filename": "Test16.wav",
+      "predicted_class": "drone j",
+      "confidence": 0.43417325453496786,
+      "top_predictions": [
+        {
+          "label": "drone j",
+          "category": "drone",
+          "type": "drone j (drone)",
+          "confidence": 0.43417325453496786,
+          "averageDistance": 0.18427106873409876,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_j_555b011e",
+              "distance": 0.17676079957377655,
+              "weight": 5.65736292636115,
+              "source": "../Drone-Training-Data/drone_J/J_15.wav"
+            },
+            {
+              "id": "proto_drone_j_4aa49ce2",
+              "distance": 0.19178133789442098,
+              "weight": 5.214271658362536,
+              "source": "../Drone-Training-Data/drone_J/J_02.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone e",
+          "category": "drone",
+          "type": "drone e (drone)",
+          "confidence": 0.3855302608580812,
+          "averageDistance": 0.2075993151677133,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_e_903d9aba",
+              "distance": 0.19822645975472675,
+              "weight": 5.044735179110818,
+              "source": "../Drone-Training-Data/drone_E/E_07.wav"
+            },
+            {
+              "id": "proto_drone_e_222a3e9c",
+              "distance": 0.21697217058069984,
+              "weight": 4.608885981620291,
+              "source": "../Drone-Training-Data/drone_E/E_06.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.18029648460695094,
+          "averageDistance": 0.22150368695548983,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_d1cf0b9a",
+              "distance": 0.22150368695548983,
+              "weight": 4.514597518579219,
+              "source": "../Drone-Training-Data/drone_G/G_02.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 308.80429100000003,
+      "snr_db": -7.630197157436944
+    },
+    {
+      "filename": "Test17.wav",
+      "predicted_class": "drone h",
+      "confidence": 0.6096940047577165,
+      "top_predictions": [
+        {
+          "label": "drone h",
+          "category": "drone",
+          "type": "drone h (drone)",
+          "confidence": 0.6096940047577165,
+          "averageDistance": 0.12177386750560655,
+          "support": 3,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_h_feeff99a",
+              "distance": 0.09987815301363667,
+              "weight": 10.01219946319259,
+              "source": "../Drone-Training-Data/drone_H/H_10.wav"
+            },
+            {
+              "id": "proto_drone_h_fcfe7880",
+              "distance": 0.11397923054705694,
+              "weight": 8.773528180764622,
+              "source": "../Drone-Training-Data/drone_H/H_12.wav"
+            },
+            {
+              "id": "proto_drone_h_1af6468e",
+              "distance": 0.15146421895612605,
+              "weight": 6.602219324733363,
+              "source": "../Drone-Training-Data/drone_H/H_15.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.39030599524228343,
+          "averageDistance": 0.12320180267496511,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_138b15b5",
+              "distance": 0.11898960621502797,
+              "weight": 8.404095310549975,
+              "source": "../Drone-Training-Data/drone_G/G_11.wav"
+            },
+            {
+              "id": "proto_drone_g_33f0ba0d",
+              "distance": 0.12741399913490226,
+              "weight": 7.848431090313693,
+              "source": "../Drone-Training-Data/drone_G/G_01.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 337.368875,
+      "snr_db": 2.3404049243801897
+    },
+    {
+      "filename": "Test18.wav",
+      "predicted_class": "drone f",
+      "confidence": 0.738554876037959,
+      "top_predictions": [
+        {
+          "label": "drone f",
+          "category": "drone",
+          "type": "drone f (drone)",
+          "confidence": 0.738554876037959,
+          "averageDistance": 0.16665288306809323,
+          "support": 4,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_f_39c9962e",
+              "distance": 0.12447428466045996,
+              "weight": 8.033787819660944,
+              "source": "../Drone-Training-Data/drone_F/F_05.wav"
+            },
+            {
+              "id": "proto_drone_f_86e95150",
+              "distance": 0.14889771913779948,
+              "weight": 6.7160195540572145,
+              "source": "../Drone-Training-Data/drone_F/F_09.wav"
+            },
+            {
+              "id": "proto_drone_f_ad724da5",
+              "distance": 0.188953664269492,
+              "weight": 5.2923027376778675,
+              "source": "../Drone-Training-Data/drone_F/F_11.wav"
+            },
+            {
+              "id": "proto_drone_f_dd0e7775",
+              "distance": 0.20428586420462147,
+              "weight": 4.895101278780875,
+              "source": "../Drone-Training-Data/drone_F/F_04.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone i",
+          "category": "drone",
+          "type": "drone i (drone)",
+          "confidence": 0.26144512396204095,
+          "averageDistance": 0.11328028491276654,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_i_590a4614",
+              "distance": 0.11328028491276654,
+              "weight": 8.827661335265939,
+              "source": "../Drone-Training-Data/drone_I/I_07.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 230.579458,
+      "snr_db": -2.124832361434632
+    },
+    {
+      "filename": "Test19.wav",
+      "predicted_class": "drone d",
+      "confidence": 0.6035653304884998,
+      "top_predictions": [
+        {
+          "label": "drone d",
+          "category": "drone",
+          "type": "drone d (drone)",
+          "confidence": 0.6035653304884998,
+          "averageDistance": 0.26651132864415056,
+          "support": 3,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_d_f2e10600",
+              "distance": 0.23393046621463143,
+              "weight": 4.27477451700423,
+              "source": "../Drone-Training-Data/drone_D/D_10.wav"
+            },
+            {
+              "id": "proto_drone_d_f9316460",
+              "distance": 0.2391625492074403,
+              "weight": 4.181256635424898,
+              "source": "../Drone-Training-Data/drone_D/D_15.wav"
+            },
+            {
+              "id": "proto_drone_d_173df409",
+              "distance": 0.32644097051038,
+              "weight": 3.063340962910357,
+              "source": "../Drone-Training-Data/drone_D/D_04.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone b",
+          "category": "drone",
+          "type": "drone b (drone)",
+          "confidence": 0.39643466951150036,
+          "averageDistance": 0.2708116793088519,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_b_e7a53fbc",
+              "distance": 0.22892974122323384,
+              "weight": 4.368152387228395,
+              "source": "../Drone-Training-Data/drone_B/B_14.wav"
+            },
+            {
+              "id": "proto_drone_b_8f757c11",
+              "distance": 0.31269361739447,
+              "weight": 3.198018575289495,
+              "source": "../Drone-Training-Data/drone_B/B_15.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 228.425333,
+      "snr_db": -4.738772966364783
+    },
+    {
+      "filename": "Test20.wav",
+      "predicted_class": "drone a",
+      "confidence": 0.38665078313341367,
+      "top_predictions": [
+        {
+          "label": "drone a",
+          "category": "drone",
+          "type": "drone a (drone)",
+          "confidence": 0.38665078313341367,
+          "averageDistance": 0.3735232458101553,
+          "support": 2,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_a_590cc11e",
+              "distance": 0.36529907035154063,
+              "weight": 2.737483006184988,
+              "source": "../Drone-Training-Data/drone_A/A_13.wav"
+            },
+            {
+              "id": "proto_drone_a_3d5385f1",
+              "distance": 0.3817474212687699,
+              "weight": 2.6195330778054298,
+              "source": "../Drone-Training-Data/drone_A/A_15.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone g",
+          "category": "drone",
+          "type": "drone g (drone)",
+          "confidence": 0.21923925097575425,
+          "averageDistance": 0.32921349767213237,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_g_d209a452",
+              "distance": 0.32921349767213237,
+              "weight": 3.037542518862241,
+              "source": "../Drone-Training-Data/drone_G/G_03.wav"
+            }
+          ]
+        },
+        {
+          "label": "drone e",
+          "category": "drone",
+          "type": "drone e (drone)",
+          "confidence": 0.2000141762434521,
+          "averageDistance": 0.3608570253146466,
+          "support": 1,
+          "topPrototypes": [
+            {
+              "id": "proto_drone_e_2fbba917",
+              "distance": 0.3608570253146466,
+              "weight": 2.7711806257807416,
+              "source": "../Drone-Training-Data/drone_E/E_01.wav"
+            }
+          ]
+        }
+      ],
+      "processing_time_ms": 244.863,
+      "snr_db": -5.238227716235099
+    }
+  ],
+  "avg_confidence": 0.5279421756932836,
+  "avg_processing_ms": 242.1371813
+}

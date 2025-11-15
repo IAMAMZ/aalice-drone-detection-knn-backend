@@ -1,0 +1,259 @@
+.mapContainer {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  min-height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+  background: #0a0a0a;
+  border: 2px solid #1a1a1a;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  filter: contrast(1.2) brightness(0.9) saturate(1.1);
+  transform-style: preserve-3d;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 400px;
+  color: #a3a3a3;
+  background: #0a0a0a;
+}
+
+.placeholder p {
+  margin: 0 0 8px 0;
+  font-size: 1.1em;
+  color: #a3a3a3;
+}
+
+.placeholder small {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.mapOverlay {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.statusBadge {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 8px 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.statusDrone {
+  color: #7f1d1d;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.statusNoDrone {
+  color: #059669;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.locationMarker {
+  position: relative;
+  cursor: pointer;
+}
+
+.drone3DContainer {
+  position: relative;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drone3D {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  transform-style: preserve-3d;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotateY(180deg);
+  }
+}
+
+.droneBody {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.droneCore {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(127, 29, 29, 0.3);
+}
+
+.dronePropeller {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 50%;
+  border: 2px solid #7f1d1d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  animation: spin 0.1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.prop1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prop2 {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prop3 {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prop4 {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.droneShadow {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 8px;
+  background: radial-gradient(ellipse, rgba(0, 0, 0, 0.4) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.markerPulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(127, 29, 29, 0.3) 0%, rgba(127, 29, 29, 0) 70%);
+  animation: pulse 2s ease-out infinite;
+  z-index: 0;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.markerIcon {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  color: #7f1d1d;
+}
+
+.locationMarker:hover .markerIcon {
+  transform: scale(1.1);
+}
+
+.militaryPopup {
+  font-family: 'Courier New', monospace;
+}
+
+.popupContent {
+  font-family: 'Courier New', monospace;
+  padding: 8px 12px;
+  background: rgba(10, 10, 10, 0.95);
+  border: 2px solid #7f1d1d;
+  border-radius: 4px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); */
+}
+
+.popupContent strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #7f1d1d;
+  font-size: 0.95em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(127, 29, 29, 0.3);
+  padding-bottom: 4px;
+}
+
+.popupContent div {
+  color: #00ff00;
+  font-size: 0.85em;
+  margin-top: 4px;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+

@@ -1,0 +1,508 @@
+
+[
+  {
+    "id": 1762887408722480000,
+    "timestamp": "2025-11-11T13:56:48.72247-05:00",
+    "latitude": 44.62206058699624,
+    "longitude": -79.42926815896035,
+    "isDrone": false,
+    "primaryType": "normal drone no noise shaheed (drone)",
+    "primaryLabel": "normal drone no noise shaheed",
+    "primaryCategory": "drone",
+    "confidence": 0.4040356368139305,
+    "snrDb": -0.2502421675569862,
+    "latencyMs": 1766.604333,
+    "predictions": [
+      {
+        "label": "normal drone no noise shaheed",
+        "category": "drone",
+        "type": "normal drone no noise shaheed (drone)",
+        "confidence": 0.4040356368139305,
+        "averageDistance": 0.014838904867152008,
+        "support": 13,
+        "topPrototypes": [
+          {
+            "id": "proto_normal_drone_no_noise_shaheed_556f3b7b",
+            "distance": 0.009474882001195395,
+            "weight": 105.54220034947508,
+            "source": "Shahed Target Acquired.mp3"
+          }
+        ]
+      },
+      {
+        "label": "drone",
+        "category": "drone",
+        "type": "drone (drone)",
+        "confidence": 0.30209533546969114,
+        "averageDistance": 0.01984620672887851,
+        "support": 13,
+        "topPrototypes": [
+          {
+            "id": "proto_drone_8d410be9",
+            "distance": 0.014200007510395518,
+            "weight": 70.42249300540361,
+            "source": "drone-fly-amp-crash-200744.mp3"
+          }
+        ]
+      },
+      {
+        "label": "motor",
+        "category": "drone",
+        "type": "motor (drone)",
+        "confidence": 0.29386902771637813,
+        "averageDistance": 0.020401763787009523,
+        "support": 13,
+        "topPrototypes": [
+          {
+            "id": "proto_motor_84f8424a",
+            "distance": 0.01410032687569307,
+            "weight": 70.92033666279886,
+            "source": "motorcycle-77112.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1762887469922974000,
+    "timestamp": "2025-11-11T13:57:49.922775-05:00",
+    "latitude": 44.62228716327918,
+    "longitude": -79.42913454817058,
+    "isDrone": true,
+    "primaryType": "motor (drone)",
+    "primaryLabel": "motor",
+    "primaryCategory": "drone",
+    "confidence": 0.972857088307083,
+    "snrDb": -9.978985443408995,
+    "latencyMs": 237.849583,
+    "predictions": [
+      {
+        "label": "motor",
+        "category": "drone",
+        "type": "motor (drone)",
+        "confidence": 0.972857088307083,
+        "averageDistance": 0.0001662058124558552,
+        "support": 1,
+        "topPrototypes": [
+          {
+            "id": "proto_motor_84f8424a",
+            "distance": 0.0001662058124558552,
+            "weight": 6016.600554598818,
+            "source": "motorcycle-77112.mp3"
+          }
+        ]
+      },
+      {
+        "label": "drone",
+        "category": "drone",
+        "type": "drone (drone)",
+        "confidence": 0.01877797147692712,
+        "averageDistance": 0.008610911835887691,
+        "support": 1,
+        "topPrototypes": [
+          {
+            "id": "proto_drone_8d410be9",
+            "distance": 0.008610911835887691,
+            "weight": 116.13170624980678,
+            "source": "drone-fly-amp-crash-200744.mp3"
+          }
+        ]
+      },
+      {
+        "label": "normal drone no noise shaheed",
+        "category": "drone",
+        "type": "normal drone no noise shaheed (drone)",
+        "confidence": 0.008364940215990014,
+        "averageDistance": 0.01933014021410162,
+        "support": 1,
+        "topPrototypes": [
+          {
+            "id": "proto_normal_drone_no_noise_shaheed_556f3b7b",
+            "distance": 0.01933014021410162,
+            "weight": 51.73267949385105,
+            "source": "Shahed Target Acquired.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1762963965206543000,
+    "timestamp": "2025-11-12T11:12:45.206041-05:00",
+    "latitude": 44.62208131701378,
+    "longitude": -79.42933542582128,
+    "isDrone": false,
+    "primaryType": "drone (drone)",
+    "primaryLabel": "drone",
+    "primaryCategory": "drone",
+    "confidence": 0.36818364129342085,
+    "snrDb": -8.897160499968338,
+    "latencyMs": 1266.775416,
+    "predictions": [
+      {
+        "label": "drone",
+        "category": "drone",
+        "type": "drone (drone)",
+        "confidence": 0.36818364129342085,
+        "averageDistance": 0.013878345837827507,
+        "support": 13,
+        "topPrototypes": [
+          {
+            "id": "proto_drone_8d410be9",
+            "distance": 0.0010978545274753504,
+            "weight": 910.8666623008396,
+            "source": "drone-fly-amp-crash-200744.mp3"
+          }
+        ]
+      },
+      {
+        "label": "motor",
+        "category": "drone",
+        "type": "motor (drone)",
+        "confidence": 0.3091835465989987,
+        "averageDistance": 0.01363714625265869,
+        "support": 10,
+        "topPrototypes": [
+          {
+            "id": "proto_motor_84f8424a",
+            "distance": 0.006660838437614891,
+            "weight": 150.1312273574454,
+            "source": "motorcycle-77112.mp3"
+          }
+        ]
+      },
+      {
+        "label": "UAS DRONE pass 06",
+        "category": "drone",
+        "type": "UAS DRONE pass 06 (drone)",
+        "confidence": 0.26494084262966594,
+        "averageDistance": 0.019286494140452207,
+        "support": 13,
+        "topPrototypes": [
+          {
+            "id": "proto_uas_drone_pass_06_4ed18d28",
+            "distance": 0.003853229431216909,
+            "weight": 259.5225014051871,
+            "source": "recording_2025-11-12T16-10-48-012Z.wav"
+          }
+        ]
+      },
+      {
+        "label": "normal drone no noise shaheed",
+        "category": "drone",
+        "type": "normal drone no noise shaheed (drone)",
+        "confidence": 0.05769196947791437,
+        "averageDistance": 0.015485667610369938,
+        "support": 3,
+        "topPrototypes": [
+          {
+            "id": "proto_normal_drone_no_noise_shaheed_556f3b7b",
+            "distance": 0.007757520069998081,
+            "weight": 128.9071587401112,
+            "source": "Shahed Target Acquired.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1762963998761151000,
+    "timestamp": "2025-11-12T11:13:18.758509-05:00",
+    "latitude": 44.62201234559105,
+    "longitude": -79.42979819051452,
+    "isDrone": false,
+    "primaryType": "drone (drone)",
+    "primaryLabel": "drone",
+    "primaryCategory": "drone",
+    "confidence": 0.34193657505709324,
+    "snrDb": -3.6849857047927665,
+    "latencyMs": 1233.3825,
+    "predictions": [
+      {
+        "label": "drone",
+        "category": "drone",
+        "type": "drone (drone)",
+        "confidence": 0.34193657505709324,
+        "averageDistance": 0.010194543807280892,
+        "support": 12,
+        "topPrototypes": [
+          {
+            "id": "proto_drone_8d410be9",
+            "distance": 0.0012998525116846293,
+            "weight": 769.3174584757519,
+            "source": "drone-fly-amp-crash-200744.mp3"
+          }
+        ]
+      },
+      {
+        "label": "UAS DRONE pass 06",
+        "category": "drone",
+        "type": "UAS DRONE pass 06 (drone)",
+        "confidence": 0.28189710999318063,
+        "averageDistance": 0.01225759801743452,
+        "support": 12,
+        "topPrototypes": [
+          {
+            "id": "proto_uas_drone_pass_06_4ed18d28",
+            "distance": 0.0019311968920251443,
+            "weight": 517.8133241184069,
+            "source": "recording_2025-11-12T16-10-48-012Z.wav"
+          }
+        ]
+      },
+      {
+        "label": "normal drone no noise shaheed",
+        "category": "drone",
+        "type": "normal drone no noise shaheed (drone)",
+        "confidence": 0.2685753967702332,
+        "averageDistance": 0.012847454993248441,
+        "support": 10,
+        "topPrototypes": [
+          {
+            "id": "proto_normal_drone_no_noise_shaheed_556f3b7b",
+            "distance": 0.004009759856541728,
+            "weight": 249.3914315035893,
+            "source": "Shahed Target Acquired.mp3"
+          }
+        ]
+      },
+      {
+        "label": "motor",
+        "category": "drone",
+        "type": "motor (drone)",
+        "confidence": 0.10759091817949307,
+        "averageDistance": 0.014642747387202828,
+        "support": 5,
+        "topPrototypes": [
+          {
+            "id": "proto_motor_84f8424a",
+            "distance": 0.00837200593617915,
+            "weight": 119.44567265927088,
+            "source": "motorcycle-77112.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1762964199630197000,
+    "timestamp": "2025-11-12T11:16:39.62956-05:00",
+    "latitude": 44.622012322239954,
+    "longitude": -79.4297983113601,
+    "isDrone": false,
+    "primaryType": "UAS DRONE pass 06 (drone)",
+    "primaryLabel": "UAS DRONE pass 06",
+    "primaryCategory": "drone",
+    "confidence": 0.2579513987811553,
+    "snrDb": 0.7988302669379206,
+    "latencyMs": 1211.544417,
+    "predictions": [
+      {
+        "label": "UAS DRONE pass 06",
+        "category": "drone",
+        "type": "UAS DRONE pass 06 (drone)",
+        "confidence": 0.2579513987811553,
+        "averageDistance": 0.019872642054441777,
+        "support": 12,
+        "topPrototypes": [
+          {
+            "id": "proto_uas_drone_pass_06_4ed18d28",
+            "distance": 0.0024006914452581185,
+            "weight": 416.5464851506548,
+            "source": "recording_2025-11-12T16-10-48-012Z.wav"
+          }
+        ]
+      },
+      {
+        "label": "drone",
+        "category": "drone",
+        "type": "drone (drone)",
+        "confidence": 0.2107169014793199,
+        "averageDistance": 0.011975733802328891,
+        "support": 8,
+        "topPrototypes": [
+          {
+            "id": "proto_drone_8d410be9",
+            "distance": 0.0016722612925629265,
+            "weight": 597.9923152290838,
+            "source": "drone-fly-amp-crash-200744.mp3"
+          }
+        ]
+      },
+      {
+        "label": "UAS drone pass01",
+        "category": "drone",
+        "type": "UAS drone pass01 (drone)",
+        "confidence": 0.20102880861342232,
+        "averageDistance": 0.005038964744165204,
+        "support": 8,
+        "topPrototypes": [
+          {
+            "id": "proto_uas_drone_pass01_166b6bc5",
+            "distance": 0.0014811827531819866,
+            "weight": 675.1356797235504,
+            "source": "recording_2025-11-12T16-15-35-651Z.wav"
+          }
+        ]
+      },
+      {
+        "label": "motor",
+        "category": "drone",
+        "type": "motor (drone)",
+        "confidence": 0.18820978950221437,
+        "averageDistance": 0.024572170415914137,
+        "support": 6,
+        "topPrototypes": [
+          {
+            "id": "proto_motor_84f8424a",
+            "distance": 0.0046258290034163485,
+            "weight": 216.1774209734172,
+            "source": "motorcycle-77112.mp3"
+          }
+        ]
+      },
+      {
+        "label": "normal drone no noise shaheed",
+        "category": "drone",
+        "type": "normal drone no noise shaheed (drone)",
+        "confidence": 0.14209310162388814,
+        "averageDistance": 0.020116728936437928,
+        "support": 5,
+        "topPrototypes": [
+          {
+            "id": "proto_normal_drone_no_noise_shaheed_556f3b7b",
+            "distance": 0.0012787966591969457,
+            "weight": 781.9845405628722,
+            "source": "Shahed Target Acquired.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1762964570341562000,
+    "timestamp": "2025-11-12T11:22:50.341033-05:00",
+    "latitude": 44.622018009083035,
+    "longitude": -79.43010621592815,
+    "isDrone": true,
+    "primaryType": "normalized UAS (drone)",
+    "primaryLabel": "normalized UAS",
+    "primaryCategory": "drone",
+    "confidence": 0.9989628084966227,
+    "snrDb": -0.08236197045112131,
+    "latencyMs": 1003.9347080000001,
+    "predictions": [
+      {
+        "label": "normalized UAS",
+        "category": "drone",
+        "type": "normalized UAS (drone)",
+        "confidence": 0.9989628084966227,
+        "averageDistance": 0.0005015651404561431,
+        "support": 9,
+        "topPrototypes": [
+          {
+            "id": "proto_normalized_uas_19bbcef5",
+            "distance": 0.00002504422198035261,
+            "weight": 39927.775476874456,
+            "source": "recording_2025-11-12T16-22-00-848Z.wav"
+          }
+        ]
+      },
+      {
+        "label": "normal drone no noise shaheed",
+        "category": "drone",
+        "type": "normal drone no noise shaheed (drone)",
+        "confidence": 0.0005228620993868506,
+        "averageDistance": 0.958275461888678,
+        "support": 9,
+        "topPrototypes": [
+          {
+            "id": "proto_normal_drone_no_noise_shaheed_556f3b7b",
+            "distance": 0.9554275925065797,
+            "weight": 1.0466517889962044,
+            "source": "Shahed Target Acquired.mp3"
+          }
+        ]
+      },
+      {
+        "label": "motor",
+        "category": "drone",
+        "type": "motor (drone)",
+        "confidence": 0.0005143294039902932,
+        "averageDistance": 0.9741731970120977,
+        "support": 9,
+        "topPrototypes": [
+          {
+            "id": "proto_motor_84f8424a",
+            "distance": 0.9712767681236271,
+            "weight": 1.0295726530165954,
+            "source": "motorcycle-77112.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1763076260412010000,
+    "timestamp": "2025-11-13T18:24:20.41162-05:00",
+    "latitude": 44.62202555881845,
+    "longitude": -79.42913396079943,
+    "isDrone": true,
+    "primaryType": "normalized UAS (drone)",
+    "primaryLabel": "normalized UAS",
+    "primaryCategory": "drone",
+    "confidence": 0.9978927652017512,
+    "snrDb": -5.277816510981991,
+    "latencyMs": 664.987875,
+    "predictions": [
+      {
+        "label": "normalized UAS",
+        "category": "drone",
+        "type": "normalized UAS (drone)",
+        "confidence": 0.9978927652017512,
+        "averageDistance": 0.0010231290508808666,
+        "support": 1,
+        "topPrototypes": [
+          {
+            "id": "proto_normalized_uas_19bbcef5",
+            "distance": 0.0010231290508808666,
+            "weight": 977.3928535664136,
+            "source": "recording_2025-11-12T16-22-00-848Z.wav"
+          }
+        ]
+      },
+      {
+        "label": "normal drone no noise shaheed",
+        "category": "drone",
+        "type": "normal drone no noise shaheed (drone)",
+        "confidence": 0.001062193378296709,
+        "averageDistance": 0.9611941624127956,
+        "support": 1,
+        "topPrototypes": [
+          {
+            "id": "proto_normal_drone_no_noise_shaheed_556f3b7b",
+            "distance": 0.9611941624127956,
+            "weight": 1.040372526243211,
+            "source": "Shahed Target Acquired.mp3"
+          }
+        ]
+      },
+      {
+        "label": "motor",
+        "category": "drone",
+        "type": "motor (drone)",
+        "confidence": 0.001045041419952062,
+        "averageDistance": 0.9769699603258871,
+        "support": 1,
+        "topPrototypes": [
+          {
+            "id": "proto_motor_84f8424a",
+            "distance": 0.9769699603258871,
+            "weight": 1.0235729240260958,
+            "source": "motorcycle-77112.mp3"
+          }
+        ]
+      }
+    ]
+  }
+]

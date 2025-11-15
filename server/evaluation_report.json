@@ -1,0 +1,133 @@
+{
+  "Timestamp": "2025-11-15T10:23:27.220992-05:00",
+  "ModelPath": "drone/prototypes.json",
+  "TotalSamples": 128,
+  "CorrectCount": 128,
+  "OverallAccuracy": 100,
+  "AvgConfidence": 0.9999999814926656,
+  "ClassMetrics": [
+    {
+      "ClassName": "drone a",
+      "TotalSamples": 4,
+      "CorrectCount": 4,
+      "Accuracy": 100,
+      "AvgConfidence": 0.9999999815508503,
+      "ConfidenceStd": 7.76711185463021e-9,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone b",
+      "TotalSamples": 4,
+      "CorrectCount": 4,
+      "Accuracy": 100,
+      "AvgConfidence": 0.999999964739691,
+      "ConfidenceStd": 1.6964634991922346e-8,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone c",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.9999999739321983,
+      "ConfidenceStd": 1.7013024899388622e-8,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone d",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.9999999847434398,
+      "ConfidenceStd": 7.874967178174172e-9,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone e",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.999999990812124,
+      "ConfidenceStd": 8.087428372613596e-9,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone f",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.9999999915336761,
+      "ConfidenceStd": 7.399145715531286e-9,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone g",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.9999999718865831,
+      "ConfidenceStd": 2.1974198479529484e-8,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone h",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.999999982387768,
+      "ConfidenceStd": 1.032946001472403e-8,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone i",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.999999984526223,
+      "ConfidenceStd": 9.285330489345788e-9,
+      "Misclassified": null
+    },
+    {
+      "ClassName": "drone j",
+      "TotalSamples": 15,
+      "CorrectCount": 15,
+      "Accuracy": 100,
+      "AvgConfidence": 0.9999999765712573,
+      "ConfidenceStd": 2.650772512246921e-8,
+      "Misclassified": null
+    }
+  ],
+  "ConfusionMatrix": {
+    "drone a": {
+      "drone a": 4
+    },
+    "drone b": {
+      "drone b": 4
+    },
+    "drone c": {
+      "drone c": 15
+    },
+    "drone d": {
+      "drone d": 15
+    },
+    "drone e": {
+      "drone e": 15
+    },
+    "drone f": {
+      "drone f": 15
+    },
+    "drone g": {
+      "drone g": 15
+    },
+    "drone h": {
+      "drone h": 15
+    },
+    "drone i": {
+      "drone i": 15
+    },
+    "drone j": {
+      "drone j": 15
+    }
+  },
+  "ProcessingTime": 64356059041
+}

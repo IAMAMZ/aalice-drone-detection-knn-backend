@@ -1,0 +1,15 @@
+labels:
+  dji_mavic:
+    category: drone
+    description: DJI Mavic 2 Pro quadcopter
+    rotor_count: 4
+  parrot_anafi:
+    category: drone
+    description: Parrot Anafi micro-UAS
+    rotor_count: 4
+  urban_noise:
+    category: noise
+    description: Urban ground vehicle noise profile
+  wind_noise:
+    category: noise
+    description: Wind gust baseline

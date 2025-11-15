@@ -1,0 +1,507 @@
+.panel {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 2px solid #7f1d1d;
+  border-radius: 12px;
+  background: #0a0a0a;
+  box-shadow: 0 12px 30px rgba(127, 29, 29, 0.2), inset 0 0 20px rgba(127, 29, 29, 0.05);
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.panelHeader h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.detectorDetail {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 0.35rem;
+  padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, #7f1d1d 0%, #c41e3a 100%);
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(127, 29, 29, 0.5);
+}
+
+.timestamp {
+  display: block;
+  color: #ffffff;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.latency {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.placeholder {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.modelSummary {
+  margin-top: 1.5rem;
+}
+
+.modelSummary strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.modelSummary ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.modelSummary li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #7f1d1d;
+  border-radius: 8px;
+  background: rgba(127, 29, 29, 0.05);
+}
+
+.labelName {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.labelMeta {
+  color: #ffffff;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.labelCount {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.resultsBody {
+  display: grid;
+  gap: 1rem;
+}
+
+.prediction {
+  border-radius: 12px;
+  padding: 0;
+  border: 2px solid #1a1a1a;
+  background: #0f0f0f;
+  transition: all 0.2s ease-in;
+  box-shadow: 0 1px 3px rgba(127, 29, 29, 0.1);
+  overflow: hidden;
+}
+
+.prediction:hover {
+  box-shadow: 0 4px 6px rgba(127, 29, 29, 0.3), 0 0 15px rgba(127, 29, 29, 0.2);
+  border-color: #7f1d1d;
+}
+
+.dronePrediction {
+  border-color: #7f1d1d;
+  background: linear-gradient(135deg, rgba(127, 29, 29, 0.15) 0%, rgba(196, 30, 58, 0.1) 100%);
+  border-width: 2px;
+  box-shadow: 0 0 20px rgba(127, 29, 29, 0.3), inset 0 0 20px rgba(127, 29, 29, 0.1);
+}
+
+.noisePrediction {
+  border-color: #1a1a1a;
+  background: #0f0f0f;
+}
+
+.predictionHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(127, 29, 29, 0.2) 0%, rgba(20, 20, 20, 0.8) 100%);
+  border-bottom: 2px solid #7f1d1d;
+}
+
+.predictionLabel {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.predictionType {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.predictionCategory {
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.predictionDescription {
+  margin-top: 0.4rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.confidenceBox {
+  text-align: right;
+}
+
+.confidenceValue {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.confidenceCaption {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/* 3D Model Viewer */
+.model3DViewer {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(180deg, #1a1a1a 0%, #0f0f0f 100%);
+  border-bottom: 2px solid #7f1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: grab;
+  overflow: hidden;
+}
+
+.model3DViewer:active {
+  cursor: grabbing;
+}
+
+.model3DViewer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 30% 30%, rgba(255, 0, 0, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 70% 70%, rgba(127, 29, 29, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.model3DViewer::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(255, 0, 0, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.noModelMessage,
+.errorModelMessage {
+  color: #888;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.errorModelMessage {
+  color: #ff0000;
+}
+
+.progressBar {
+  height: 10px;
+  margin: 0;
+  border-radius: 0;
+  background: #1a1a1a;
+  overflow: hidden;
+  border: none;
+  border-bottom: 2px solid #7f1d1d;
+}
+
+.progressInner {
+  height: 100%;
+  background: linear-gradient(90deg, #7f1d1d, #c41e3a);
+  border-radius: 0;
+  transition: width 0.3s ease-out;
+  box-shadow: 0 0 10px rgba(127, 29, 29, 0.5);
+  position: relative;
+}
+
+.progressInner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(255, 255, 255, 0.3) 50%, 
+    transparent 100%
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.predictionMeta {
+  margin: 0;
+  padding: 1rem 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  color: #ffffff;
+  border-top: none;
+  border-bottom: 1px solid #1a1a1a;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.metadataBlock {
+  margin: 0;
+  padding: 1.5rem;
+  border-radius: 0;
+  background: rgba(127, 29, 29, 0.05);
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.metadataTitle {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #7f1d1d;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 5px rgba(127, 29, 29, 0.5);
+}
+
+.metadataList {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.metadataRow {
+  display: grid;
+  grid-template-columns: minmax(10rem, 1.2fr) 2fr;
+  gap: 1rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: #e5e5e5;
+  background: rgba(127, 29, 29, 0.05);
+  border-radius: 6px;
+  border: 1px solid #1a1a1a;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.metadataRow:hover {
+  background: rgba(127, 29, 29, 0.1);
+  border-color: #7f1d1d;
+}
+
+.metadataRow dt {
+  color: #a3a3a3;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.metadataRow dd {
+  margin: 0;
+  font-weight: 600;
+  color: #e5e5e5;
+  word-break: break-word;
+}
+
+.prototypeList {
+  margin: 0;
+  padding: 1.5rem;
+  border-top: 1px solid #1a1a1a;
+}
+
+.prototypeTitle {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.4rem;
+}
+
+.prototypeList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.prototypeList li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #ffffff;
+  background: rgba(127, 29, 29, 0.05);
+  padding: 0.35rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid #1a1a1a;
+}
+
+.threatAssessmentBlock {
+  margin: 0;
+  padding: 1.5rem;
+  border-radius: 0;
+  background: linear-gradient(135deg, rgba(127, 29, 29, 0.1) 0%, rgba(196, 30, 58, 0.05) 100%);
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+  box-shadow: none;
+}
+
+.threatAssessmentTitle {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #7f1d1d;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 5px rgba(127, 29, 29, 0.5);
+}
+
+.threatGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.threatItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.75rem;
+  background: rgba(127, 29, 29, 0.05);
+  border-radius: 8px;
+  border: 1px solid #1a1a1a;
+}
+
+.threatLabel {
+  font-size: 0.75rem;
+  color: #a3a3a3;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.threatValue {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #e5e5e5;
+}
+
+.threatCritical {
+  color: #7f1d1d;
+}
+
+.threatHigh {
+  color: #ea580c;
+}
+
+.threatMedium {
+  color: #f59e0b;
+}
+
+.threatLow {
+  color: #7f1d1d;
+}
+
+@media (max-width: 720px) {
+  .panel {
+    padding: 1rem;
+  }
+
+  .predictionHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .confidenceBox {
+    text-align: left;
+  }
+
+  .model3DViewer {
+    height: 250px;
+  }
+
+  .threatGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .metadataRow {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .metadataRow dt {
+    margin-bottom: 0.15rem;
+  }
+
+  .predictionMeta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
