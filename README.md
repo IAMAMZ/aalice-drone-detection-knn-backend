@@ -8,7 +8,6 @@ AALIS is a production-ready drone acoustic classifier that identifies drone type
 
 **Key Features:**
 - Real-time audio classification with WebSocket support
-- 100% training accuracy on diverse drone datasets
 - ~240ms inference latency per sample
 - Adaptive confidence thresholding based on signal-to-noise ratio (SNR)
 - Extensible prototype library via web interface or CLI
@@ -278,7 +277,6 @@ This script:
 
 ## Performance Metrics
 
-- **Training Accuracy**: 100% (128/128 samples in reference dataset)
 - **Inference Speed**: ~240ms per sample
 - **Model Size**: 128 prototypes across 10 classes
 - **Feature Dimensions**: 2048 (PANNS) or 19 (legacy)
